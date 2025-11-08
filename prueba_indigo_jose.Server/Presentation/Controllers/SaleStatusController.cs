@@ -43,7 +43,7 @@ namespace prueba_indigo_jose.Server.Presentation.Controllers
         public async Task<ActionResult> Put(int id, SaleStatus status)
         {
             if (id != status.Id)
-                return BadRequest("El ID del estado no coincide.");
+                return BadRequest("ID mismatch.");
 
             await _service.UpdateAsync(status);
             return NoContent();

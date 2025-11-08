@@ -28,6 +28,7 @@ namespace prueba_indigo_jose.Server.Infrastructure.Data
             modelBuilder.Entity<Sale>().ToTable("Sales");
             modelBuilder.Entity<SaleDetail>().ToTable("SaleDetails");
             modelBuilder.Entity<Client>().ToTable("Clients");
+            modelBuilder.Entity<User>().ToTable("Users");
 
             base.OnModelCreating(modelBuilder);
         }

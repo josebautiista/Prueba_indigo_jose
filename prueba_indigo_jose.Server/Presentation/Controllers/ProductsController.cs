@@ -43,7 +43,7 @@ namespace prueba_indigo_jose.Server.Presentation.Controllers
         public async Task<ActionResult> Put(int id, Product product)
         {
             if (id != product.Id)
-                return BadRequest("El ID del producto no coincide.");
+                return BadRequest("ID mismatch.");
 
             await _service.UpdateAsync(product);
             return NoContent();
