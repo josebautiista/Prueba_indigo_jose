@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using prueba_indigo_jose.Server.Infrastructure.Data;
 
@@ -11,9 +12,11 @@ using prueba_indigo_jose.Server.Infrastructure.Data;
 namespace prueba_indigo_jose.Server.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251108214236_modifySales")]
+    partial class modifySales
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -182,7 +185,7 @@ namespace prueba_indigo_jose.Server.Infrastructure.Data.Migrations
             modelBuilder.Entity("prueba_indigo_jose.Server.Core.Entities.Sale", b =>
                 {
                     b.HasOne("prueba_indigo_jose.Server.Core.Entities.Client", "Client")
-                        .WithMany()
+                        .WithMany("Sales")
                         .HasForeignKey("ClientIdentification")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -215,6 +218,11 @@ namespace prueba_indigo_jose.Server.Infrastructure.Data.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("Sale");
+                });
+
+            modelBuilder.Entity("prueba_indigo_jose.Server.Core.Entities.Client", b =>
+                {
+                    b.Navigation("Sales");
                 });
 
             modelBuilder.Entity("prueba_indigo_jose.Server.Core.Entities.Sale", b =>

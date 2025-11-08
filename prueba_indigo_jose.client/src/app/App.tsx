@@ -1,20 +1,9 @@
-import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider } from "../shared/contexts/AuthContext";
 import ProtectedRoute from "../shared/components/ProtectedRoute";
 import Login from "../features/auth/Login";
-
-const Dashboard: React.FC = () => {
-  return (
-    <div className="p-6 text-slate-100">
-      <h2 className="text-2xl font-semibold">Panel privado</h2>
-      <p className="mt-2 text-slate-300">
-        Estás autenticado y puedes ver contenido protegido.
-      </p>
-    </div>
-  );
-};
+import Dashboard from "../features/dashboard/Dashboard";
 
 function App() {
   return (
