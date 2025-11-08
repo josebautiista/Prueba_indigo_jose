@@ -30,9 +30,4 @@
     </ProjectReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Application\" />
-    <Folder Include="Presentation\" />
-  </ItemGroup>
-
 </Project>

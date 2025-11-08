@@ -3,24 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\presentation\\controllers\\saledetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\presentation\\controllers\\saledetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\application\\services\\saledetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\application\\services\\saledetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\infrastructure\\repositories\\saledetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\infrastructure\\repositories\\saledetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\interfaces\\isaledetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\interfaces\\isaledetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\presentation\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\presentation\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\presentation\\controllers\\salestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\presentation\\controllers\\salestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\application\\services\\salestatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\application\\services\\salestatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\infrastructure\\repositories\\salestatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\infrastructure\\repositories\\salestatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\interfaces\\isalestatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\interfaces\\isalestatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\presentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\presentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\presentation\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\presentation\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\entities\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\entities\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\entities\\salesstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\entities\\salesstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\entities\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\entities\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +117,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\core\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\core\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,20 +130,176 @@
       "DocumentGroups": [
         {
           "DockedHeight": 262,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Program.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Program.cs",
               "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Program.cs",
               "RelativeToolTip": "prueba_indigo_jose.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T15:15:03.349Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SaleDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\SaleDetailsController.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Presentation\\Controllers\\SaleDetailsController.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\SaleDetailsController.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Presentation\\Controllers\\SaleDetailsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:56:26.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaleDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\SaleDetailService.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Application\\Services\\SaleDetailService.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\SaleDetailService.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Application\\Services\\SaleDetailService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:56:01.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaleDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleDetailRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleDetailRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleDetailRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:55:45.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISaleDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleDetailRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleDetailRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleDetailRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:55:29.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Presentation\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Presentation\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:54:36.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaleService.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\SaleService.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Application\\Services\\SaleService.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\SaleService.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Application\\Services\\SaleService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:54:22.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:54:08.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:53:57.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SaleStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\SaleStatusController.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Presentation\\Controllers\\SaleStatusController.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\SaleStatusController.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Presentation\\Controllers\\SaleStatusController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:52:53.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SaleStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\SaleStatusService.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Application\\Services\\SaleStatusService.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\SaleStatusService.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Application\\Services\\SaleStatusService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:52:39.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SaleStatusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleStatusRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleStatusRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleStatusRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleStatusRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:52:24.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISaleStatusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleStatusRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleStatusRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleStatusRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Interfaces\\ISaleStatusRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:52:09.398Z",
               "EditorCaption": ""
             },
             {
@@ -63,96 +307,226 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Presentation\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Presentation\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:51:28.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:50:47.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:50:29.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:50:07.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Presentation\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Presentation\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:32:58.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Application\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\ClientService.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Application\\Services\\ClientService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:27:00.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:26:14.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:25:28.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Interfaces\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\IClientRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Interfaces\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:23:32.158Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 23,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:23:01.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Infrastructure\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Data\\AppDbContext.cs",
               "RelativeToolTip": "prueba_indigo_jose.Server\\Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T15:10:51.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 28,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\Client.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Entities\\Client.cs",
               "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\Client.cs",
               "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Entities\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T14:51:14.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 25,
               "Title": "SaleDetail.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\SaleDetail.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Entities\\SaleDetail.cs",
               "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\SaleDetail.cs",
               "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Entities\\SaleDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T14:50:57.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 26,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\Sale.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Entities\\Sale.cs",
               "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\Sale.cs",
               "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Entities\\Sale.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T14:50:17.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 24,
               "Title": "SalesStatus.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\SalesStatus.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Entities\\SalesStatus.cs",
               "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\SalesStatus.cs",
               "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Entities\\SalesStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T14:49:50.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\appsettings.json",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\appsettings.json",
               "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\appsettings.json",
               "RelativeToolTip": "prueba_indigo_jose.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-08T13:41:19.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 27,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Entities\\Product.cs",
               "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\Product.cs",
               "RelativeToolTip": "prueba_indigo_jose.Server\\Core\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T14:48:57.556Z",
               "EditorCaption": ""

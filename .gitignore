@@ -84,6 +84,7 @@ prueba_indigo_jose.Server/Release/
 prueba_indigo_jose.Server/.vs/
 prueba_indigo_jose.Server/.vscode/
 prueba_indigo_jose.Server/.idea/
+.vs/
 
 # EF Migrations / SQLite optional
 *.db
