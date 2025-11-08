@@ -1,0 +1,113 @@
+# ============================
+# GLOBAL IGNORE RULES
+# ============================
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node and npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Logs
+*.log
+*.tlog
+*.vspscc
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+dist/
+build/
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage / Test
+coverage/
+*.coverage
+*.coveragexml
+.vscode-test/
+TestResults/
+*.trx
+
+# IDEs
+.vscode/
+.idea/
+*.sw?
+*.bak
+*.tmp
+
+# ============================
+# FRONTEND (React)
+# ============================
+
+# React project folder
+prueba_indigo_jose.client/node_modules/
+prueba_indigo_jose.client/build/
+prueba_indigo_jose.client/.env
+prueba_indigo_jose.client/.env.local
+prueba_indigo_jose.client/.env.development.local
+prueba_indigo_jose.client/.env.test.local
+prueba_indigo_jose.client/.env.production.local
+
+# Optional React caches
+prueba_indigo_jose.client/.eslintcache
+prueba_indigo_jose.client/.parcel-cache
+prueba_indigo_jose.client/.turbo/
+prueba_indigo_jose.client/.next/
+prueba_indigo_jose.client/.vite/
+
+# ============================
+# BACKEND (.NET)
+# ============================
+
+# Visual Studio / .NET artifacts
+prueba_indigo_jose.Server/bin/
+prueba_indigo_jose.Server/obj/
+prueba_indigo_jose.Server/Debug/
+prueba_indigo_jose.Server/Release/
+prueba_indigo_jose.Server/.vs/
+prueba_indigo_jose.Server/.vscode/
+prueba_indigo_jose.Server/.idea/
+
+# EF Migrations / SQLite optional
+*.db
+*.mdf
+*.ldf
+
+# Publish / temp
+publish/
+*.publish.xml
+*.pubxml
+*.pubxml.user
+
+# ============================
+# Miscellaneous
+# ============================
+
+# Backup and temp files
+*~
+*.tmp
+*.bak
+*.old
+
+# npm or yarn lock files (optional, only ignore if using another package manager)
+# prueba_indigo_jose.client/package-lock.json
+# prueba_indigo_jose.client/yarn.lock
+
+# End of file

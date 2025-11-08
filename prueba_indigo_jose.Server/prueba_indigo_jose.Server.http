@@ -1,0 +1,6 @@
+@prueba_indigo_jose.Server_HostAddress = http://localhost:5209
+
+GET {{prueba_indigo_jose.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
