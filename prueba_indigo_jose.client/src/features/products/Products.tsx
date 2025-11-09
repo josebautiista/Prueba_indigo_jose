@@ -59,7 +59,10 @@ export default function Products() {
     e.preventDefault();
     try {
       if (editingId) {
-        await updateItem(`${apiBase}/${editingId}`, editingId, formProduct);
+        await updateItem(`${apiBase}`, editingId, {
+          ...formProduct,
+          id: editingId,
+        });
       } else {
         await postItem(apiBase, formProduct);
       }

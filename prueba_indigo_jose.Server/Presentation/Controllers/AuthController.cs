@@ -23,7 +23,6 @@ namespace prueba_indigo_jose.Server.Presentation.Controllers
             _authService = authService;
         }
 
-        [AllowAnonymous]
         [HttpPost("register")]
         public async Task<IActionResult> Register(User user)
         {

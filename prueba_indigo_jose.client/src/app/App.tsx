@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider } from "../shared/contexts/AuthContext";
 import ProtectedRoute from "../shared/components/ProtectedRoute";
