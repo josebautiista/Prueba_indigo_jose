@@ -6,6 +6,7 @@ interface ModalProps {
   onClose: () => void;
   children?: React.ReactNode;
   footer?: React.ReactNode;
+  position?: "center" | "top";
 }
 
 export const Modal: React.FC<ModalProps> = ({
@@ -14,11 +15,17 @@ export const Modal: React.FC<ModalProps> = ({
   onClose,
   children,
   footer,
+  position = "center",
 }) => {
   if (!isOpen) return null;
 
+  const containerClass =
+    position === "top"
+      ? "fixed inset-0 z-50 flex items-start justify-center pt-8 p-4"
+      : "fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4";
+
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4">
+    <div className={containerClass}>
       <div className="fixed inset-0 bg-black/50" onClick={onClose} />
 
       <div className="relative w-full max-w-2xl bg-white dark:bg-slate-800 rounded-lg shadow-lg overflow-hidden">

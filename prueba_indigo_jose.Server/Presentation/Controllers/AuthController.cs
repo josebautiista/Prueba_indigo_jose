@@ -6,6 +6,7 @@ using prueba_indigo_jose.Server.Core.Entities;
 using prueba_indigo_jose.Server.Core.Interfaces;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace prueba_indigo_jose.Server.Presentation.Controllers
 {
@@ -22,6 +23,7 @@ namespace prueba_indigo_jose.Server.Presentation.Controllers
             _authService = authService;
         }
 
+        [AllowAnonymous]
         [HttpPost("register")]
         public async Task<IActionResult> Register(User user)
         {
@@ -31,6 +33,7 @@ namespace prueba_indigo_jose.Server.Presentation.Controllers
             return Ok("User registered successfully");
         }
 
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO login)
         {
@@ -53,6 +56,7 @@ namespace prueba_indigo_jose.Server.Presentation.Controllers
             });
         }
 
+        [AllowAnonymous]
         [HttpPost("refresh")]
         public async Task<IActionResult> Refresh([FromBody] RefreshTokenRequestDTO request)
         {

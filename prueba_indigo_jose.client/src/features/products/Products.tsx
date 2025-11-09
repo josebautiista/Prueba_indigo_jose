@@ -3,7 +3,7 @@ import type { ChangeEvent, FormEvent } from "react";
 import { Button } from "../../shared/components/Button";
 import { Input } from "../../shared/components/Input";
 import Modal from "../../shared/components/Modal";
-import { Plus, Pencil, Trash2, X, Save } from "lucide-react";
+import { Pencil, Trash2, X, Save } from "lucide-react";
 import {
   getItems,
   postItem,
@@ -11,14 +11,7 @@ import {
   deleteItem,
 } from "../../shared/services/crudActions";
 import { ButtonAdd } from "../../shared/components/ButtonAdd";
-
-type Product = {
-  id: number;
-  name: string;
-  price: number;
-  stock: number;
-  image?: string | null;
-};
+import type { Product } from "../../shared/types/d.types";
 
 const apiBase = "/Products";
 
@@ -120,26 +113,30 @@ export default function Products() {
       )}
 
       {!loading && products.length > 0 && (
-        <div className="overflow-x-auto border rounded-lg shadow-sm">
-          <table className="min-w-full text-white border-collapse text-sm">
-            <thead className=" text-white uppercase text-xs">
+        <div className="bg-slate-900/50 backdrop-blur-sm rounded-xl border border-slate-700 shadow-2xl overflow-hidden">
+          <table className="min-w-full">
+            <thead className="bg-linear-to-r from-slate-800 to-slate-900 border-b border-slate-700">
               <tr>
-                <th className="px-4 py-3 text-left">ID</th>
-                <th className="px-4 py-3 text-left">Imagen</th>
-                <th className="px-4 py-3 text-left">Nombre</th>
-                <th className="px-4 py-3 text-right">Precio</th>
-                <th className="px-4 py-3 text-right">Stock</th>
-                <th className="px-4 py-3 text-center">Acciones</th>
+                {["ID", "Imagen", "Nombre", "Precio", "Stock", "Acciones"].map(
+                  (head) => (
+                    <th
+                      key={head}
+                      className="text-left px-6 py-4 text-slate-300 font-semibold text-sm uppercase tracking-wider"
+                    >
+                      {head}
+                    </th>
+                  )
+                )}
               </tr>
             </thead>
-            <tbody>
+            <tbody className="divide-y divide-slate-700">
               {products.map((p) => (
                 <tr
                   key={p.id}
-                  className="border-t hover:bg-gray-800 transition-colors"
+                  className="transition-all duration-200 hover:bg-slate-800/30"
                 >
-                  <td className="px-4 py-3">{p.id}</td>
-                  <td className="px-4 py-3 w-24">
+                  <td className="px-6 py-4 font-mono text-sm text-slate-400">{`#${p.id}`}</td>
+                  <td className="px-6 py-4 w-24">
                     {p.image ? (
                       <img
                         src={p.image}
@@ -147,31 +144,39 @@ export default function Products() {
                         className="h-12 w-12 object-contain mx-auto"
                       />
                     ) : (
-                      <div className="text-white text-xs text-center">
+                      <div className="text-slate-400 text-xs text-center">
                         Sin imagen
                       </div>
                     )}
                   </td>
-                  <td className="px-4 py-3 font-medium text-white">{p.name}</td>
-                  <td className="px-4 py-3 text-right text-white">
+                  <td className="px-6 py-4">
+                    <div className="flex items-center gap-3">
+                      <span className="font-medium text-slate-200">
+                        {p.name}
+                      </span>
+                    </div>
+                  </td>
+                  <td className="px-6 py-4 text-right text-slate-300">
                     ${p.price.toFixed(2)}
                   </td>
-                  <td className="px-4 py-3 text-right text-white">{p.stock}</td>
-                  <td className="px-4 py-3 text-center">
-                    <div className="flex justify-center gap-3">
+                  <td className="px-6 py-4 text-right text-slate-300">
+                    {p.stock}
+                  </td>
+                  <td className="px-6 py-4">
+                    <div className="flex items-center gap-2">
                       <button
                         onClick={() => openEditModal(p)}
-                        className="text-blue-600 hover:text-blue-800"
-                        title="Editar"
+                        className="flex items-center gap-2 px-3 py-2 text-sky-400 hover:text-sky-300 hover:bg-sky-500/10 rounded-lg transition-all duration-200"
                       >
-                        <Pencil className="w-4 h-4 cursor-pointer" />
+                        <Pencil className="w-4 h-4" />
+                        <span>Editar</span>
                       </button>
                       <button
                         onClick={() => deleteProduct(p.id)}
-                        className="text-red-600 hover:text-red-800"
-                        title="Eliminar"
+                        className="flex items-center gap-2 px-3 py-2 text-red-400 hover:text-red-300 hover:bg-red-500/10 rounded-lg transition-all duration-200"
                       >
-                        <Trash2 className="w-4 h-4 cursor-pointer" />
+                        <Trash2 className="w-4 h-4" />
+                        <span>Eliminar</span>
                       </button>
                     </div>
                   </td>

@@ -4,7 +4,8 @@ using prueba_indigo_jose.Server.Core.Interfaces;
 using prueba_indigo_jose.Server.Infrastructure.Data;
 using prueba_indigo_jose.Server.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;                
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authorization;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -68,6 +69,12 @@ builder.Services.AddCors(options =>
 
 
 builder.Services.AddControllers();
+builder.Services.AddAuthorization(options =>
+{
+    options.FallbackPolicy = new AuthorizationPolicyBuilder()
+        .RequireAuthenticatedUser()
+        .Build();
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

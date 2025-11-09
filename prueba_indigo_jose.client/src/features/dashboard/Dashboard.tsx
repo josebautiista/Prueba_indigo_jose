@@ -2,9 +2,10 @@ import { useState } from "react";
 import Products from "../products/Products";
 import Sales from "../sales/Sales";
 import Users from "../Users/Users";
+import Reports from "../reports/Reports";
 import { Navbar } from "../../shared/components/Navbar";
 
-type TabKey = "productos" | "ventas" | "usuarios";
+type TabKey = "productos" | "ventas" | "usuarios" | "reportes";
 
 const Dashboard = () => {
   const [activeTab, setActiveTab] = useState<TabKey>("productos");
@@ -22,6 +23,7 @@ const Dashboard = () => {
           { key: "productos", label: "Productos" },
           { key: "ventas", label: "Ventas" },
           { key: "usuarios", label: "Usuarios" },
+          { key: "reportes", label: "Reportes" },
         ].map((tab) => (
           <button
             key={tab.key}
@@ -44,6 +46,7 @@ const Dashboard = () => {
         {activeTab === "productos" && <Products />}
         {activeTab === "ventas" && <Sales />}
         {activeTab === "usuarios" && <Users />}
+        {activeTab === "reportes" && <Reports />}
       </main>
 
       <footer className="flex justify-center text-slate-500 text-sm pt-2">

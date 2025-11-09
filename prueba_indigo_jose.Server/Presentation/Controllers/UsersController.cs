@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using prueba_indigo_jose.Server.Application.Services;
 using prueba_indigo_jose.Server.Core.Entities;
+using prueba_indigo_jose.Server.Core.DTO;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace prueba_indigo_jose.Server.Presentation.Controllers
 {
@@ -18,18 +20,20 @@ namespace prueba_indigo_jose.Server.Presentation.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> Get()
+        public async Task<ActionResult<IEnumerable<UserResponseDto>>> Get()
         {
             var users = await _service.GetAllAsync();
-            return Ok(users);
+            var dto = users.Select(u => new UserResponseDto { Id = u.Id, Username = u.Username, Email = u.Email });
+            return Ok(dto);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> Get(int id)
+        public async Task<ActionResult<UserResponseDto>> Get(int id)
         {
             var user = await _service.GetByIdAsync(id);
             if (user == null) return NotFound();
-            return Ok(user);
+            var dto = new UserResponseDto { Id = user.Id, Username = user.Username, Email = user.Email };
+            return Ok(dto);
         }
 
         [HttpPost]

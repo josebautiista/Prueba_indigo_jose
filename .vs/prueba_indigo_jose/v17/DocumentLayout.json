@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\presentation\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\presentation\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|c:\\users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.server\\infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98F7D1C6-8B49-4BA7-9931-1D442BF0A9BC}|prueba_indigo_jose.Server\\prueba_indigo_jose.Server.csproj|solutionrelative:prueba_indigo_jose.server\\infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,7 +50,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Program.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Program.cs",
@@ -64,19 +68,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SaleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
-              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
-              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
-              "RelativeToolTip": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Presentation\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Presentation\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Presentation\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwC4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:38:52.651Z",
+              "WhenOpened": "2025-11-09T00:08:18.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "ToolTip": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "RelativeToolTip": "prueba_indigo_jose.Server\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwB8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:38:52.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SaleService.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Application\\Services\\SaleService.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Application\\Services\\SaleService.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SalesDTO.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\DTO\\SalesDTO.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\DTO\\SalesDTO.cs",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SaleDetail.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\SaleDetail.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Entities\\SaleDetail.cs",
@@ -112,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\Sale.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Entities\\Sale.cs",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Entities\\Product.cs",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\joseb\\source\\repos\\prueba_indigo_jose\\prueba_indigo_jose.Server\\Core\\Entities\\Client.cs",
               "RelativeDocumentMoniker": "prueba_indigo_jose.Server\\Core\\Entities\\Client.cs",
